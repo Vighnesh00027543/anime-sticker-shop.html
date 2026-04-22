@@ -1,1 +1,192 @@
-# anime-sticker-shop.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vintage Anime Stickers</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f4f1ea;
+      color: #333;
+    }
+
+    header {
+      background: #e8dcc8;
+      padding: 25px 15px;
+      text-align: center;
+      border-bottom: 2px solid #c2b280;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 6px;
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 25px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.08);
+    }
+
+    .card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      background: #eee;
+    }
+
+    .card-content {
+      padding: 14px;
+    }
+
+    .card-content h3 {
+      margin: 0 0 8px;
+      font-size: 1.1rem;
+    }
+
+    .card-content p {
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 7px 14px;
+      border: 1px solid #333;
+      text-decoration: none;
+      color: #333;
+      font-size: 0.8rem;
+      transition: 0.3s;
+    }
+
+    .buy-btn:hover {
+      background: #333;
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background: #e8dcc8;
+      border-top: 2px solid #c2b280;
+      font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Vintage Anime Stickers</h1>
+  <p>Minimal • Retro • Collectible</p>
+</header>
+
+<section class="container">
+
+  <!-- IMPORTANT: Put images inside /images folder -->
+  <!-- If image not found, placeholder will show -->
+
+  <div class="card">
+    <img src="images/sticker1.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Classic Eyes</h3>
+      <p>Soft vintage anime gaze.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker2.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Retro Hero</h3>
+      <p>90s inspired main character.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker3.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Soft Smile</h3>
+      <p>Minimal calm expression.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker4.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Vintage Mood</h3>
+      <p>Muted nostalgic palette.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker5.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Lonely Night</h3>
+      <p>Dark aesthetic anime vibe.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker6.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Dreamy Girl</h3>
+      <p>Soft pastel vintage tone.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker7.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Old Manga Panel</h3>
+      <p>Classic black & white frame.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="images/sticker8.jpg" onerror="this.src='https://via.placeholder.com/300'">
+    <div class="card-content">
+      <h3>Rain Scene</h3>
+      <p>Melancholic anime moment.</p>
+      <a href="#" class="buy-btn">View on Redbubble</a>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Vintage Anime Stickers • Designed for Redbubble
+</footer>
+
+</body>
+</html>
